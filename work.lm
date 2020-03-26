@@ -1,0 +1,89 @@
+Language model created by QuickLM on Wed Mar 25 08:52:34 EDT 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 5 sentences and 19 words
+
+\data\
+ngram 1=19
+ngram 2=25
+ngram 3=22
+
+\1-grams:
+-1.1072 </s> -0.3010
+-1.1072 <s> -0.2657
+-1.5051 ARE -0.2730
+-1.8062 CAN -0.2730
+-1.8062 DO -0.2657
+-1.8062 FOR -0.2942
+-1.8062 FROM -0.2657
+-1.8062 HOW -0.2942
+-1.8062 IS -0.2942
+-1.8062 ME -0.2657
+-1.8062 NAME -0.2657
+-1.8062 OLD -0.2872
+-1.8062 TALKING -0.2942
+-1.8062 THANK -0.2730
+-1.8062 TO -0.2942
+-1.5051 WHAT -0.2872
+-1.8062 WHERE -0.2872
+-1.2041 YOU -0.2430
+-1.8062 YOUR -0.2942
+
+\2-grams:
+-1.0000 <s> HOW 0.0000
+-1.0000 <s> THANK 0.0000
+-0.6990 <s> WHAT 0.0000
+-1.0000 <s> WHERE 0.0000
+-0.3010 ARE YOU -0.1761
+-0.3010 CAN YOU -0.2430
+-0.3010 DO </s> -0.3010
+-0.3010 FOR TALKING 0.0000
+-0.3010 FROM </s> -0.3010
+-0.3010 HOW OLD 0.0000
+-0.3010 IS YOUR 0.0000
+-0.3010 ME </s> -0.3010
+-0.3010 NAME </s> -0.3010
+-0.3010 OLD ARE 0.0000
+-0.3010 TALKING TO 0.0000
+-0.3010 THANK YOU -0.2430
+-0.3010 TO ME 0.0000
+-0.6021 WHAT CAN 0.0000
+-0.6021 WHAT IS 0.0000
+-0.3010 WHERE ARE 0.0000
+-0.9031 YOU </s> -0.3010
+-0.9031 YOU DO 0.0000
+-0.9031 YOU FOR 0.0000
+-0.9031 YOU FROM 0.0000
+-0.3010 YOUR NAME 0.0000
+
+\3-grams:
+-0.3010 <s> HOW OLD
+-0.3010 <s> THANK YOU
+-0.6021 <s> WHAT CAN
+-0.6021 <s> WHAT IS
+-0.3010 <s> WHERE ARE
+-0.6021 ARE YOU </s>
+-0.6021 ARE YOU FROM
+-0.3010 CAN YOU DO
+-0.3010 FOR TALKING TO
+-0.3010 HOW OLD ARE
+-0.3010 IS YOUR NAME
+-0.3010 OLD ARE YOU
+-0.3010 TALKING TO ME
+-0.3010 THANK YOU FOR
+-0.3010 TO ME </s>
+-0.3010 WHAT CAN YOU
+-0.3010 WHAT IS YOUR
+-0.3010 WHERE ARE YOU
+-0.3010 YOU DO </s>
+-0.3010 YOU FOR TALKING
+-0.3010 YOU FROM </s>
+-0.3010 YOUR NAME </s>
+
+\end\
